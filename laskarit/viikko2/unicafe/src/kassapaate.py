@@ -45,6 +45,3 @@ class Kassapaate:
             self.kassassa_rahaa += summa
         else:
             return
-k = Kassapaate()
-m = Maksukortti(10)
-print(k.syo_edullisesti_kateisella(240))
