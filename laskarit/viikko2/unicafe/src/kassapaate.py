@@ -1,3 +1,6 @@
+
+from maksukortti import Maksukortti
+
 class Kassapaate:
     def __init__(self):
         self.kassassa_rahaa = 100000
@@ -42,3 +45,6 @@ class Kassapaate:
             self.kassassa_rahaa += summa
         else:
             return
+k = Kassapaate()
+m = Maksukortti(10)
+print(k.syo_edullisesti_kateisella(240))
