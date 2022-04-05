@@ -101,9 +101,9 @@ class Game:
 
             self.screen.fill((255, 255, 255))
 
-            self.draw_text('Helppo', self.menufont3, (0, 0, 0), self.screen, 236, 208)
+            self.draw_text('Helppo', self.menufont3, (127, 127, 127), self.screen, 236, 208)
             self.draw_text('Normaali', self.menufont3, (0, 0, 0), self.screen, 218, 268)
-            self.draw_text('Vaikea', self.menufont3, (0, 0, 0), self.screen, 240, 328)
+            self.draw_text('Vaikea', self.menufont3, (127, 127, 127), self.screen, 240, 328)
 
             self.mx, self.my = pygame.mouse.get_pos()
 
