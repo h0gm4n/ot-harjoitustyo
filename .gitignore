@@ -2,3 +2,6 @@
 __pycache__
 .coverage
 htmlcov
+.coveragearc
+Makefile
+README.md.save
