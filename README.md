@@ -12,6 +12,8 @@ Sovelluksen toiminta on testattu Python-versiolla 3.8. Etenkin vanhempien Python
 ## Dokumentaatio
 
 [Vaatimusmäärittely](https://github.com/h0gm4n/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
+
 [Työaikakirjanpito](https://github.com/h0gm4n/ot-harjoitustyo/blob/master/dokumentaatio/tyoaikakirjanpito.md)
+
 [Changelog](https://github.com/h0gm4n/ot-harjoitustyo/blob/master/dokumentaatio/changelog.md)
 
