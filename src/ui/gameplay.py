@@ -1,7 +1,7 @@
 
 import pygame, sys, os
 from pygame.locals import *
-from ui.sudoku_grid import Sudoku_Grid
+from ui.sudoku_grid import SudokuGrid
 pygame.font.init()
 dirname = os.path.dirname(__file__)
 
@@ -14,7 +14,7 @@ class Gameplay:
                 self.error_font = pygame.font.SysFont("cambria", 10)
                 self.DIFF = 500 / 9
                 self.VALUE = 0
-                self.grids = Sudoku_Grid()
+                self.grids = SudokuGrid()
                 self.GRID1 = self.grids.NUMBER_GRID1
                 self.number_font = pygame.font.SysFont("cambria", 25)
                 self.mainClock = pygame.time.Clock()

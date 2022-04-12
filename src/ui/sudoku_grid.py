@@ -1,6 +1,6 @@
 #from gameplay import Gameplay
 
-class Sudoku_Grid:
+class SudokuGrid:
 
     def __init__(self):
         #self.gameplay = Gameplay()

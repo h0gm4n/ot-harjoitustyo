@@ -6,7 +6,7 @@ pygame.font.init()
 
 dirname = os.path.dirname(__file__)
 
-class Main_Menu:
+class MainMenu:
 
     def __init__(self):
         pygame.init()
