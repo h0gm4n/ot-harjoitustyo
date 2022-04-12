@@ -8,7 +8,7 @@ class Sudoku_Grid:
         self.NUMBER_GRID1 = [
             [7, 3, e, 9, 5, e, e, e, e],
             [2, e, e, 6, 7, e, 5, e, e],
-            [e, e, 5, e, 1, e, 4, 8, 9],
+            [e, e, 5, e, 1, e, 4, 8, e],
             [1, 9, e, e, 6, 3, 2, e, 5],
             [e, 4, e, e, e, e, 6, e, e],
             [5, 6, 8, 2, e, 7, e, e, e],
