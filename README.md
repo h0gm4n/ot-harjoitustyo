@@ -17,3 +17,4 @@ Sovelluksen toiminta on testattu Python-versiolla 3.8. Etenkin vanhempien Python
 
 [Changelog](https://github.com/h0gm4n/ot-harjoitustyo/blob/master/dokumentaatio/changelog.md)
 
+[Arkkitehtuuri](https://github.com/h0gm4n/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
