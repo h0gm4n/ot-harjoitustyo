@@ -13,14 +13,14 @@ Sovellus sisältää perinteisen 9x9-ruutuisen Sudoku-pelin. Peliin rekisteröid
   - Jos käyttäjää ei olemassa, tai salasana ei täsmää, ilmoittaa järjestelmä tästä
 
 ### Kirjautumisen jälkeen ###
-- Käyttäjä pääsee pelin etusivulle ja voi valita peluun
+- Käyttäjä pääsee pelin etusivulle ja voi valita peluun (tehty)
   - Sudoku vastaa vaikeustasoltaan suurin piirtein normaalia vaikeusastetta 
-- Käyttäjä voi alkaa ratkaisemaan Sudokua
+- Käyttäjä voi alkaa ratkaisemaan Sudokua (tehty)
   - Alussa ruudukossa on muutama oikein asetettu numero valmiiksi
   - Ruudukon täyttö toimii siten, että pelaaja syöttää jokaiseen ruutuun näppäimistöllään numeron väliltä 1-9
   - Ajastin laskee ratkaisuun käytetyn ajan
-- Käyttäjä voi keskeyttää halutessaan Sudokun, jolloin palataan etusivulle
-- Ratkaistuaan Sudokun peli näyttää ratkaisuun käytetyn ajan, jonka jälkeen käyttäjä voi palata etusivulle
+- Käyttäjä voi keskeyttää halutessaan Sudokun, jolloin palataan etusivulle (tehty)
+- Ratkaistuaan Sudokun peli näyttää ratkaisuun käytetyn ajan, jonka jälkeen käyttäjä voi palata etusivulle 
 - Käyttäjä voi kirjautua ulos järjestelmästä
 
 ## Jatkokehitysideoita
@@ -29,5 +29,5 @@ Sovellus sisältää perinteisen 9x9-ruutuisen Sudoku-pelin. Peliin rekisteröid
 - Pelin etusivulle lisätään mahdollisuus nähdä tulostaulu
 - Käyttäjä voi halutessaan lisätä tuloksensa tulostauluun, eli ratkaisuun käytetyn ajan vaikeusasteineen ja käyttäjänimineen
 - Peli näyttää Sudokua ratkaistaessa, kuinka monta kertaa kutakin numeroa on käytetty
-- Peli merkitsee Sudokua ratkaistaessa kaikki ilmeisen väärin asetetut numerot esim. punaisella
+- Peli merkitsee Sudokua ratkaistaessa kaikki ilmeisen väärin asetetut numerot esim. punaisella (tehty)
 - Käyttäjätunnuksen voi poistaa

@@ -1,10 +1,12 @@
 import unittest
 import pygame
-from game import Game
+#from ui.main_menu import Main_Menu
+#from ui.gameplay import Gameplay
 
 class TestGame(unittest.TestCase):
     def setUp(self):
-        self.peli = Game()
+        self.menu = Main_Menu()
+        self.game = Gameplay()
         self.RED = (255, 0, 0)
 
     def test_red_assigned_correctly(self):
