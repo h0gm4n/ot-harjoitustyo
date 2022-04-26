@@ -27,13 +27,7 @@ Sovelluksen toiminta on testattu Python-versiolla 3.8. Etenkin vanhempien Python
 poetry install
 ```
 
-2. Suorita vaadittavat alustustoimenpiteet komennolla:
-
-```bash
-poetry run invoke build
-```
-
-3. Käynnistä sovellus komennolla:
+2. Käynnistä sovellus komennolla:
 
 ```bash
 poetry run invoke start

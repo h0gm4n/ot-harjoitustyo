@@ -1,7 +1,6 @@
 from ui.gameplay import Gameplay
 import pygame, sys, os
 from pygame.locals import *
-#from ui.sudoku_grid import Sudoku_Grid
 pygame.font.init()
 
 dirname = os.path.dirname(__file__)
@@ -102,6 +101,3 @@ class MainMenu:
             pygame.display.update()
             self.mainClock.tick(60)
 
-
-#menu = Main_Menu()
-#menu.run_main_menu()

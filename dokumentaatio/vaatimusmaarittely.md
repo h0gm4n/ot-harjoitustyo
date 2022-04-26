@@ -17,7 +17,7 @@ Sovellus sisältää perinteisen 9x9-ruutuisen Sudoku-pelin. Peliin rekisteröid
   - Sudoku vastaa vaikeustasoltaan suurin piirtein normaalia vaikeusastetta 
 - Käyttäjä voi alkaa ratkaisemaan Sudokua (tehty)
   - Alussa ruudukossa on muutama oikein asetettu numero valmiiksi
-  - Ruudukon täyttö toimii siten, että pelaaja syöttää jokaiseen ruutuun näppäimistöllään numeron väliltä 1-9
+  - Ruudukon täyttö toimii siten, että pelaaja syöttää jokaiseen ruutuun näppäimistöllään numeron väliltä 1-9 (tehty)
   - Ajastin laskee ratkaisuun käytetyn ajan
 - Käyttäjä voi keskeyttää halutessaan Sudokun, jolloin palataan etusivulle (tehty)
 - Ratkaistuaan Sudokun peli näyttää ratkaisuun käytetyn ajan, jonka jälkeen käyttäjä voi palata etusivulle 

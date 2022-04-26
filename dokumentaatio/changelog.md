@@ -15,7 +15,15 @@ ja jälkimmäinen toistaiseksi ainoan ruudukon
 - Ruudukon ylintä riviä voi alkaa ratkomaan, ja peli ilmoittaa, mikäli ollaan valittu ilmeisen väärä numero
 - Numeroiden asettaminen tapahtuu siten, että hiirellä "hoveroidaan" ruudun yllä, jolloin numero asetetaan
 numeronäppäimellä
-- Asettettu numero voidaan pyyhkiä pois painamalla 0
+- Asetettu numero voidaan pyyhkiä pois painamalla 0
 - Testaaminen ei toimi tällä hetkellä
+
+## Viikko 5
+
+ - Sudokun voi täyttää kokonaan
+ - Peli ilmoittaa, mikäli ilmeisen väärä luku on asetettu, ja antaa jatkaa vasta, kun se on korjattu painamalla 0
+ - Kun ruudukko on täytetty, ruudukko tyhjenee ja peli onnittelee
+ - Muutama testi lisätty ja testaaminen saatu toimimaan
+ - Sovelluslogiikkaa päivitetty ja koodia jaettu useampaan hakemistoon (entities, services)
 
 
