@@ -1,7 +1,7 @@
 # Otsikko
 
 
-Sovellus sisältää perinteisen 9x9-ruutuisen Sudoku-pelin. Toteutus on kuitenkin keskeneräinen, ja tällä hetkellä pääsee vasta näkemään Sudoku-ruudukon.
+Sovellus sisältää perinteisen 9x9-ruutuisen Sudoku-pelin.
 
 
 ## Huomio Python-sovelluksesta
