@@ -19,6 +19,8 @@ Sovelluksen toiminta on testattu Python-versiolla 3.8. Etenkin vanhempien Python
 
 [Arkkitehtuuri](https://github.com/h0gm4n/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
 
+[Käyttöohje](https://github.com/h0gm4n/ot-harjoitustyo/blob/master/dokumentaatio/kayttoohje.md)
+
 ## Asennus
 
 1. Asenna riippuvuudet komennolla:
