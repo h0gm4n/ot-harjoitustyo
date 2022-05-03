@@ -69,19 +69,19 @@ class MainMenu:
 
             self.screen.fill((255, 255, 255))
 
-            self.draw_text('Helppo', self.menufont3, (127, 127, 127), self.screen, 236, 208)
+            self.draw_text('Helppo', self.menufont3, (0, 0, 0), self.screen, 236, 208)
             self.draw_text('Normaali', self.menufont3,(0, 0, 0), self.screen, 218, 268)
-            self.draw_text('Vaikea', self.menufont3,(127, 127, 127), self.screen, 240, 328)
+            self.draw_text('Vaikea', self.menufont3,(0, 0, 0), self.screen, 240, 328)
 
             self.mx, self.my = pygame.mouse.get_pos()
 
-            self.helppo = pygame.Rect(200, 210, 200, 50)
-            self.normaali = pygame.Rect(200, 270, 200, 50)
-            self.vaikea = pygame.Rect(200, 330, 200, 50)
+            self.easy = pygame.Rect(200, 210, 200, 50)
+            self.normal = pygame.Rect(200, 270, 200, 50)
+            self.hard = pygame.Rect(200, 330, 200, 50)
 
-            pygame.draw.rect(self.screen, (0, 0, 0), self.helppo, 1)
-            pygame.draw.rect(self.screen, (0, 0, 0), self.normaali, 1)
-            pygame.draw.rect(self.screen, (0, 0, 0), self.vaikea, 1)
+            pygame.draw.rect(self.screen, (0, 0, 0), self.easy, 1)
+            pygame.draw.rect(self.screen, (0, 0, 0), self.normal, 1)
+            pygame.draw.rect(self.screen, (0, 0, 0), self.hard, 1)
 
             self.click = False
             for event in pygame.event.get():
@@ -94,9 +94,15 @@ class MainMenu:
                 if event.type == MOUSEBUTTONDOWN:
                     if event.button == 1:
                         self.click = True
-                if self.normaali.collidepoint((self.mx, self.my)):
+                if self.easy.collidepoint((self.mx, self.my)):
                     if self.click:
-                        self.g.game_loop()
+                        self.g.game_loop(0)
+                elif self.normal.collidepoint((self.mx, self.my)):
+                    if self.click:
+                        self.g.game_loop(1)
+                elif self.hard.collidepoint((self.mx, self.my)):
+                    if self.click:
+                        self.g.game_loop(2)
 
             pygame.display.update()
             self.mainClock.tick(60)

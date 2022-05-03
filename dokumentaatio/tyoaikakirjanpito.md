@@ -9,5 +9,7 @@
 | 11.4. | 7    | toiminnallisuuksien jakaminen eri luokkiin ja moduleihin, sudoku-ruudukon täyttämisen mahdollistaminen 1. rivillä, pylint           |
 | 12.4. | 5    | toiminnallisuuksien jakaminen eri luokkiin ja moduleihin                                                                            |
 | 21.4. | 8    | sudokun toiminnallisuuden kehittäminen loppuun, luokkajaottelu                                                                      |
-| 26.4. | 8    | luokkajaottelua, testien lisäämistä, koodin siistimistä, sekvenssikaavio |                                                           |
-| yht.  | 38   |
+| 26.4. | 8    | luokkajaottelua, testien lisäämistä, koodin siistimistä, sekvenssikaavio                                                            |                                                          |
+| 2.5.  | 6    | lisätty timer, lisätty helppo ja vaikea sudoku, lisätty keskeytysvarmistaja                                                         |
+| 3.5.  | 5    | lisää testejä, lisätty docstringejä, lisätty käyttöohje                                                                             |                                                      
+| yht.  | 49   |

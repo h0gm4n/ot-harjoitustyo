@@ -26,4 +26,12 @@ numeronäppäimellä
  - Muutama testi lisätty ja testaaminen saatu toimimaan
  - Sovelluslogiikkaa päivitetty ja koodia jaettu useampaan hakemistoon (entities, services)
 
+## Viikko 6
+ 
+ - Sudokussa nyt mahdollista ratkaista helppo ja vaikea sudoku
+ - Peli laskee sudokuun käytetyn ajan ja ilmoittaa sen sudokun ratkaistuttua
+ - Peli varmistaa pelaajan painettua ESCiä, haluaako pelaaja keskeyttää täyttämänsä sudokun
+ - Testejä lisätty
+ - Docstringit lisätty luokkiin Gameplay ja Functions
+ - Käyttöohje lisätty
 
