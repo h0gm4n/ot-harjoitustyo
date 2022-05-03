@@ -21,6 +21,8 @@ Sovelluksen toiminta on testattu Python-versiolla 3.8. Etenkin vanhempien Python
 
 [Käyttöohje](https://github.com/h0gm4n/ot-harjoitustyo/blob/master/dokumentaatio/kayttoohje.md)
 
+[Releaset](https://github.com/h0gm4n/ot-harjoitustyo/releases)
+
 ## Asennus
 
 1. Asenna riippuvuudet komennolla:
