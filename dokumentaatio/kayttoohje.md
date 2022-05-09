@@ -1,6 +1,21 @@
 
 # Käyttöohje
 
+## Ohjelman käynnistäminen
+
+Ennen ohjelman käynnistämistä, asenna riippuvuudet komennolla:
+
+```bash
+poetry install
+```
+
+Nyt ohjelman voi käynnistää komennolla:
+
+```
+poetry run invoke start
+```
+
+
 ## Sudokun täyttäminen
 
 Halutun ruudun saa valikoitua liikuttamalla kursorin ruudun päälle. 
