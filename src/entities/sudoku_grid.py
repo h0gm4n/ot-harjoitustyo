@@ -27,9 +27,6 @@ class SudokuGrid:
             [False, False, 6, False, 7, False, False, False, 4]
         ]
 
-
-
-
         self.number_grid_normal_1 = [
             [6, 1, 9, e, e, 7, 5, 8, 4],
             [e, e, 4, e, e, e, e, e, 3],
@@ -41,6 +38,7 @@ class SudokuGrid:
             [8, e, 2, e, e, e, 3, e, e],
             [e, 4, e, e, e, e, 7, e, e]
         ]
+
         self.number_grid_normal_1_values = [
             [6, 1, 9, False, False, 7, 5, 8, 4],
             [False, False, 4, False, False, False, False, False, 3],
@@ -74,9 +72,3 @@ class SudokuGrid:
             [False, 3, 4, 1, False, False, 8, 5, False],
             [False, False, False, 5, 3, 8, 4, False, False]
         ]
-
-
-
-
-
-sudoku_grid = SudokuGrid()

@@ -1,6 +1,7 @@
 import unittest
 from entities.sudoku_grid import SudokuGrid
 from services.functions import Functions
+from repository.repository import Repository
 
 e = ""
 number_grid_easy_1 = [
@@ -14,6 +15,7 @@ number_grid_easy_1 = [
             [5, 1, 9, 3, 2, e, e, e, 7],
             [e, e, 6, e, 7, e, e, e, 4]
         ]
+
 number_grid_easy_1_values = [
             [False, 4, 3, False, False, 5, False, 2, False],
             [False, 7, False, 9, 6, 2, 3, 4, False],
@@ -37,6 +39,7 @@ number_grid_normal_1 = [
             [8, e, 2, e, e, e, 3, e, e],
             [e, 4, e, e, e, e, 7, e, e]
         ]
+
 number_grid_normal_1_values = [
             [6, 1, 9, False, False, 7, 5, 8, 4],
             [False, False, 4, False, False, False, False, False, 3],
@@ -49,11 +52,25 @@ number_grid_normal_1_values = [
             [False, 4, False, False, False, False, 7, False, False]
         ]
 
+grid_easy_complete = [
+            [9, 4, 3, 8, 1, 5, 7, 2, 6],
+            [1, 7, 8, 9, 6, 2, 3, 4, 5],
+            [6, 5, 2, 4, 3, 7, 8, 9, 1],
+            [2, 3, 1, 6, 5, 8, 4, 7, 9],
+            [4, 6, 7, 2, 9, 1, 5, 3, 8],
+            [8, 9, 5, 7, 4, 3, 1, 6, 2],
+            [7, 2, 4, 5, 8, 6, 9, 1, 3],
+            [5, 1, 9, 3, 2, 4, 6, 8, 7],
+            [3, 8, 6, 1, 7, 9, 2, 5, 4]
+        ]
+
 
 class TestGame(unittest.TestCase):
+
     def setUp(self):
         self.functions = Functions()
         self.grids = SudokuGrid()
+        self.repo = Repository()
         self.error = self.functions.error
         self.grid1 = self.grids.number_grid_easy_1
         self.grid1_values = self.grids.number_grid_easy_1_values
@@ -121,9 +138,5 @@ class TestGame(unittest.TestCase):
         self.assertEqual(self.functions.build_sudoku(2),
                          (self.grids.number_grid_hard_1, self.grids.number_grid_hard_1_values))
 
-
-
-
-
-
-
+    def test_complete_grid_returns_victory(self):
+        self.assertEqual(self.functions.check_if_grid_full(grid_easy_complete), "victory")

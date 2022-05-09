@@ -23,3 +23,11 @@ Täyttäminen ei voi jatkua, ennen kuin virhe on korjattu tyhjentämällä ruutu
 Painamalla ESC peli varmistaa, haluaako pelaaja keskeyttää sudokun, ja tarjoaa jatko-ohjeet.
 
 ![](./kuvat/sudokuohje4.png)
+
+## Sudokun ratkaiseminen ja tuloksen tallentaminen
+
+Sudokun ratkaistua ilmestyy voittoruutu, johon voi syöttää nimimerkkinsä (1-10 kirjainta, 
+käytössä lower- ja uppercase a-z) ja painamalla Enter tallentaa tuloksensa tulostauluun,
+jonka voi nähdä Main Menun kautta. Escistä palataan vaikeustasovalikkoon.
+
+![](./kuvat/sudokusuoritus.png)

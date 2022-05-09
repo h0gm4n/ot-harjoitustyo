@@ -35,3 +35,15 @@ numeronäppäimellä
  - Docstringit lisätty luokkiin Gameplay ja Functions
  - Käyttöohje lisätty
 
+## Viikko 7
+
+ - Pelaaja voi nyt tallentaa tuloksensa
+ - Lisätty moduuli, joka tallentaa tulokset
+ - Tallennukseen käytetään csv-tiedostoja data-hakemistossa
+ - Lisätty tulostaulu
+ - Lisätty testejä
+ - Lisätty docstringejä
+ - Päivitetty vaatimusmäärittely
+ - Päivitetty arkkitehtuuri
+ - Päivitetty käyttöohje
+ - Hienosäädöt ja koodin siistiminen

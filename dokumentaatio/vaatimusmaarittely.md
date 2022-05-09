@@ -1,33 +1,22 @@
 # Vaatimusmäärittely
 
 ## Sovellukset tarkoitus
-Sovellus sisältää perinteisen 9x9-ruutuisen Sudoku-pelin. Peliin rekisteröidytään ja se tallentaa tulokset järjestyksessä tulostauluun ratkaisunopeuden perusteella.
+Sovellus sisältää perinteisen 9x9-ruutuisen Sudoku-pelin. Pelissä voi tallentaa tulokset tulostauluun ja ne on nähtävissä
+ratkaisunopeusjärjestyksessä.
 
-## Perusversion toiminnallisuudet 
+## Perusversion toiminnallisuudet
 
-### Ennen kirjautumista ###
-- Käyttäjä voi luoda järjestelmään käyttäjätunnuksen
-  - Käyttäjätunnuksen täytyy olla uniikki ja pituudeltaan vähintään 3 merkkiä
-- Käyttäjä voi kirjautua järjestelmään
-  - Kirjautuminen onnistuu syötettäessä olemassaoleva käyttäjätunnus ja salasana kirjautumislomakkeelle
-  - Jos käyttäjää ei olemassa, tai salasana ei täsmää, ilmoittaa järjestelmä tästä
-
-### Kirjautumisen jälkeen ###
-- Käyttäjä pääsee pelin etusivulle ja voi valita peluun (tehty)
-  - Sudoku vastaa vaikeustasoltaan suurin piirtein normaalia vaikeusastetta
-- Käyttäjä voi alkaa ratkaisemaan Sudokua (tehty)
-  - Alussa ruudukossa on muutama oikein asetettu numero valmiiksi
-  - Ruudukon täyttö toimii siten, että pelaaja syöttää jokaiseen ruutuun näppäimistöllään numeron väliltä 1-9 (tehty)
-  - Ajastin laskee ratkaisuun käytetyn ajan
-- Käyttäjä voi keskeyttää halutessaan Sudokun, jolloin palataan etusivulle (tehty)
-- Ratkaistuaan Sudokun peli näyttää ratkaisuun käytetyn ajan, jonka jälkeen käyttäjä voi palata etusivulle (tehty)
-- Käyttäjä voi kirjautua ulos järjestelmästä
+- Pelaaja pääsee pelin etusivulle ja voi valita peluun
+- Pelaaja voi valita vaikeustason helpon, normaalin ja vaikean väliltä
+- Pelaaja voi ratkaista sudokun
+- Peli ilmoittaa ilmeisen väärin asetetusta numerosta
+- Käyttäjä voi keskeyttää halutessaan Sudokun, jolloin palataan etusivulle
+- Ratkaistuaan Sudokun peli näyttää ratkaisuun käytetyn ajan, ja pelaaja voi halutessaan tallentaa tuloksensa,
+  jonka jälkeen pelaaja palaa tasovalikkoon
+- Pelin etusivulta käsin mahdollisuus nähdä tulostaulu
+- Pelaaja voi tyhjentää tulostaulun
 
 ## Jatkokehitysideoita
-- Käyttäjä voi valita helpon, normaalin ja haastavan Sudokun väliltä (tehty)
-- Käyttäjän tulokset tallentuvat
-- Pelin etusivulle lisätään mahdollisuus nähdä tulostaulu
-- Käyttäjä voi halutessaan lisätä tuloksensa tulostauluun, eli ratkaisuun käytetyn ajan vaikeusasteineen ja käyttäjänimineen
-- Peli näyttää Sudokua ratkaistaessa, kuinka monta kertaa kutakin numeroa on käytetty
-- Peli merkitsee Sudokua ratkaistaessa kaikki ilmeisen väärin asetetut numerot esim. punaisella (tehty)
-- Käyttäjätunnuksen voi poistaa
+- Peli näyttää Sudokua ratkaistaessa, kuinka monta kertaa kukin numero on ruudukossa
+- Lisää ratkaistavia Sudokuja
+- Ulkoasun parantelu
