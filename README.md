@@ -1,6 +1,3 @@
-# Otsikko
-
-
 Sovellus sisältää perinteisen 9x9-ruutuisen Sudoku-pelin.
 
 
